@@ -33,7 +33,7 @@ const NotFoundPage = () => {
         {process.env.NODE_ENV === "development" ? (
           <>
             <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
+            If you think this is a porblem please report it to the site admin on discord <code style={codeStyles}>wyn#2006</code>.
             <br />
           </>
         ) : null}

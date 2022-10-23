@@ -5,12 +5,12 @@ import {
   heading,
   navLinks,
   navLinkItem,
-  navLinkText
+  navLinkText,
+  darkMode
 } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    
     <div className={container}>
       <nav>
         <ul className={navLinks}>
