@@ -1,0 +1,22 @@
+{
+  "name": "mamiri263-s-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "mamiri263-s-portfolio",
+  "author": "mo",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.24.4",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
