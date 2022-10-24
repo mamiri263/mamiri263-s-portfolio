@@ -6,7 +6,6 @@ import {
   navLinks,
   navLinkItem,
   navLinkText,
-  darkMode
 } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
