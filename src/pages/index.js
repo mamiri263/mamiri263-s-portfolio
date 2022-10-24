@@ -2,6 +2,8 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
+import Seo from '../components/seo'
+
 
 
 
@@ -14,7 +16,7 @@ const HomePage = () => {
   return (
     <main>
       <Layout pageTitle="Home Page">
-        <p>Hello welcome to my portfolio. Home page still in progress!</p>
+        <p>This webpage was made using gatsby(really recommended)</p>
         <StaticImage style={kokoImage}
           alt="My pet koko smiling"
           src="../images/kokoHi.jpg"
@@ -24,7 +26,7 @@ const HomePage = () => {
   )
 }
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <Seo title="Home Page" />
 
 // Export your component
 export default HomePage

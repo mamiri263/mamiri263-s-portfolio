@@ -19,18 +19,12 @@
 }
 
 .nav-link-text {
-    color: white;
-    text-decoration: none;
+    color: black;
 }
 
-.nav-link-text:hover {
-    color: white;
-    text-decoration: underline;
-    color: rebeccapurple;
-    transition: 0.3s;
-}
-
-body {
-    background-color: #121212;
-    color: white;
+.site-title {
+    font-size: 3rem;
+    color: gray;
+    font-weight: 700;
+    margin: 3rem 0;
 }
