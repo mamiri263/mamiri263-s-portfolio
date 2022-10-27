@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/mamiri263-portfolio",
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
     title: "mamiri263 portfolio",
@@ -16,6 +17,4 @@ module.exports = {
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
   ],
-  pathPrefix: "/mamiri263-portfolio",
-
 };
