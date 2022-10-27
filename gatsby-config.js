@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Welcome to my portfolio!",
+    siteUrl: "https://www.yourdomain.tld",
+    title: "mamiri263 portfolio",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -13,5 +14,6 @@ module.exports = {
       }
     },
     "gatsby-plugin-mdx",
+    "gatsby-transformer-sharp",
   ],
 };

@@ -1,8 +1,10 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import Seo from '../components/seo'
 
+// styles
 const pageStyles = {
-  backgroundColor: "#FFFFFFF",
+  color: "#232129",
   padding: "96px",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
@@ -23,6 +25,7 @@ const codeStyles = {
   borderRadius: 4,
 }
 
+// markup
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
@@ -33,7 +36,7 @@ const NotFoundPage = () => {
         {process.env.NODE_ENV === "development" ? (
           <>
             <br />
-            If you think this is a porblem please report it to the site admin on discord <code style={codeStyles}>wyn#2006</code>.
+            Try creating a page in <code style={codeStyles}>src/pages</code>.
             <br />
           </>
         ) : null}
@@ -44,6 +47,6 @@ const NotFoundPage = () => {
   )
 }
 
-export default NotFoundPage
+export const Head = () => <Seo title="Not Found" />
 
-export const Head = () => <title>Not found</title>
+export default NotFoundPage
