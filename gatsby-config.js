@@ -16,4 +16,6 @@ module.exports = {
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
   ],
+  pathPrefix: "/mamiri263-portfolio",
+
 };
