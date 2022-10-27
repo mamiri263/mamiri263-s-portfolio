@@ -14,7 +14,7 @@ jobs:
       - name: GitHub Config
         run: |
           git config --global user.email "mo7ammadamiri@gmail.com"
-          git config --global user.name "mo"
+          git config --global user.name "mohammad"
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install dependencies
