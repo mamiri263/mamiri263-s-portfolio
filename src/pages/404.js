@@ -7,6 +7,7 @@ const pageStyles = {
   color: "white",
   padding: "96px",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  backgroundColor: "black"
 }
 const headingStyles = {
   marginTop: 0,
