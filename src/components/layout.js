@@ -42,6 +42,12 @@ const Layout = ({ pageTitle, children }) => {
               </Link>
             </li>
           </ul>
+          <hr
+            style={{
+              color: "white",
+              backgroundColor: "white",
+            }}
+          />
         </nav>
         <main>
           <h1 className={heading}>{pageTitle}</h1>

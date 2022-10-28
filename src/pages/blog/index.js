@@ -2,10 +2,10 @@ import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
 import Seo from '../../components/seo'
+import {
+  navLinkText,
+} from '../../components/layout.module.css'
 
-const linkStyle = {
-  color: "white",
-}
 
 const BlogPage = ({ data }) => {
   return (
@@ -13,8 +13,8 @@ const BlogPage = ({ data }) => {
       {
         data.allMdx.nodes.map(node => (
           <article key={node.id}>
-            <h2 style={linkStyle}>
-              <Link to={`/blog/${node.frontmatter.slug}`}>
+            <h2>
+              <Link className={navLinkText} to={`/blog/${node.frontmatter.slug}`}>
                 {node.frontmatter.title}
               </Link>
             </h2>
