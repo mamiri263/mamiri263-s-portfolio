@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import Seo from '../components/seo'
 
+// styles
 const pageStyles = {
   color: "white",
   padding: "96px",

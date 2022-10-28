@@ -1,14 +1,17 @@
+// Import React
 import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
 
 
 
+// styles
 const linkStyles = {
   color: "gray",
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
   textDecoration: "none",
 }
+// Define your component
 const AboutPage = () => {
   return (
     <main>
@@ -29,4 +32,5 @@ const AboutPage = () => {
 export const Head = () => <Seo title="About Me" />
 
 
+// Export your component
 export default AboutPage

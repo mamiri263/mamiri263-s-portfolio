@@ -21,4 +21,6 @@ const HomePage = () => {
 
 
 export const Head = () => <Seo title="Home Page" />
+
+// Export your component
 export default HomePage
