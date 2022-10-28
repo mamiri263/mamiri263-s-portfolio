@@ -1,7 +1,10 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://mamiri263.com",
     title: "mamiri263's portfolio",
+    description: `mamiri's personal portfolio`,
+    twitterUsername: `@wynnu_`,
+    image: `/icon.png`,
   },
   plugins: [
     "gatsby-plugin-image",
