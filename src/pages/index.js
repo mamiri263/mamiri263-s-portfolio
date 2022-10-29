@@ -20,7 +20,11 @@ const HomePage = () => {
 }
 
 
-export const Head = () => <Seo title="Home Page" />
-
+export const Head = () => (
+  <>
+    <Seo title="Home Page" />
+    <Seo />
+  </>
+)
 // Export your component
 export default HomePage
