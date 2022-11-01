@@ -21,7 +21,7 @@ const AboutPage = () => {
         <h2>Contact me:</h2>
         <ul>
           <li>discord: wyn#2006</li>
-          <li><a style={linkStyles} href='mailto: mo7ammadamiri@gmail.com"'>email me</a></li>
+          <li><a style={linkStyles} href='mailto: moh@mamiri263.com"'>email me</a></li>
         </ul>
       </Layout>
     </main>
