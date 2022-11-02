@@ -24,6 +24,8 @@ const AboutPage = () => {
           <li>discord: wyn#2006</li>
           <li><a style={linkStyles} href='mailto: moh@mamiri263.com"'>Email</a></li>
         </ul>
+        <h2>Official work</h2>
+        <p>I am currently looking for a job as a software engineer; to receive my CV please email me.</p>
       </Layout>
     </main>
   )
