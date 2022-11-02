@@ -7,6 +7,8 @@ import {
   navLinkItem,
   navLinkText,
 } from './layout.module.css'
+import DarkMode from "./DarkMode";
+
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -38,6 +40,9 @@ const Layout = ({ pageTitle, children }) => {
               <Link to="/blog" className={navLinkText}>
                 Blog
               </Link>
+            </li>
+            <li>
+              <DarkMode />
             </li>
           </ul>
           <hr
