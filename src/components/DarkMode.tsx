@@ -6,30 +6,16 @@ import React from "react";
 const setDark = () => {
 
   // 2
-  localStorage.setItem("theme", "dark");
+  localStorage.setItem("theme", "light");
 
   // 3
-  document.documentElement.setAttribute("data-theme", "dark");
-};
-
-const setLight = () => {
-  localStorage.setItem("theme", "light");
   document.documentElement.setAttribute("data-theme", "light");
 };
 
-// 4
-const storedTheme = localStorage.getItem("theme");
-
-const prefersDark =
-  window.matchMedia &&
-  window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-const defaultDark =
-  storedTheme === "dark" || (storedTheme === null && prefersDark);
-
-if (defaultDark) {
-  setDark();
-}
+const setLight = () => {
+  localStorage.setItem("theme", "dark");
+  document.documentElement.setAttribute("data-theme", "dark");
+};
 
 // 5
 const toggleTheme: ChangeEventHandler<HTMLInputElement> = (e) => {
@@ -50,7 +36,6 @@ const DarkMode = () => {
 
           // 6
           onChange={toggleTheme}
-          defaultChecked={defaultDark}
         />
         <div className="slider round"></div>
       </label>

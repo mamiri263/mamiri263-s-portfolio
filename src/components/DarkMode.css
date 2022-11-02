@@ -1,15 +1,16 @@
 /* 1 */
 :root {
-    --font-color: rgb(0, 0, 0);
-    --background-color: rgb(215, 211, 211);
-    --link-color: rgb(32, 98, 139);
-}
 
-/* 2 */
-[data-theme="dark"] {
     --font-color: #eee;
     --background-color: rgb(11, 15, 25);
     --link-color: rgb(112, 165, 183);
+}
+
+/* 2 */
+[data-theme="light"] {
+    --font-color: rgb(0, 0, 0);
+    --background-color: rgb(215, 211, 211);
+    --link-color: rgb(32, 98, 139);
 }
 
 /* 3 */
