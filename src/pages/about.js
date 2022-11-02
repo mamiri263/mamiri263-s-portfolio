@@ -16,12 +16,13 @@ const AboutPage = () => {
   return (
     <main>
       <Layout pageTitle="About Me">
-        <h1>Hi, I'm mamiri263</h1>
-        <p>I'm your avarage highschool student who just has an interest in computer development.</p>
-        <h2>Contact me:</h2>
+        <h1>Hi, I'm M Amiri</h1>
+        <p>I'm a highschool school student in Kuwait and I have an interest in development.</p>
+        <p>I like stuff like cats, music and messing with my friends.</p>
+        <h2>Contact me</h2>
         <ul>
           <li>discord: wyn#2006</li>
-          <li><a style={linkStyles} href='mailto: moh@mamiri263.com"'>email me</a></li>
+          <li><a style={linkStyles} href='mailto: moh@mamiri263.com"'>Email</a></li>
         </ul>
       </Layout>
     </main>
