@@ -18,12 +18,5 @@ module.exports = {
     },
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
-    {
-      resolve: `gatsby-plugin-gdpr-cookies`,
-      options: {
-        // Defines the environments where the tracking should be available  - default is ["production"]
-        environments: ['production', 'development']
-      },
-    },
   ],
 };
