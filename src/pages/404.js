@@ -4,6 +4,7 @@ import Seo from '../components/seo'
 
 // styles
 const pageStyles = {
+  color: "#eee",
   fontColor: "#eee",
   padding: "96px",
   linkColor: "rgb(112, 165, 183)",
