@@ -31,7 +31,7 @@ const codeStyles = {
 // markup
 const NotFoundPage = () => {
   return (
-    <body style={pageStyles}>
+    <main style={pageStyles}>
       <h1 style={headingStyles}>Page not found</h1>
       <p style={paragraphStyles}>
         Sorry 😔, we couldn’t find what you were looking for.
@@ -47,7 +47,7 @@ const NotFoundPage = () => {
         <br />
         <Link to="/">Go home</Link>.
       </p>
-    </body>
+    </main>
   )
 }
 
