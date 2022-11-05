@@ -16,6 +16,7 @@ const HomePage = () => {
 }
 
 
+
 export const Head = () => (
   <>
     <Seo title="Home Page" />

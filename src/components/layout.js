@@ -8,6 +8,7 @@ import {
   navLinkText,
 } from './layout.module.css'
 import DarkMode from "./DarkMode";
+import CookieConsent from 'react-cookie-consent';
 
 
 const Layout = ({ pageTitle, children }) => {
@@ -58,6 +59,15 @@ const Layout = ({ pageTitle, children }) => {
           {children}
         </main>
       </div>
+      <footer>
+        <CookieConsent
+          location="bottom"
+          buttonText="Accept"
+          declineButtonText="Decline"
+          cookieName="gatsby-gdpr-cloudflare-analytics">
+          This site uses cookies to get analytics to help the developers.
+        </CookieConsent>
+      </footer>
     </body>
   )
 }
