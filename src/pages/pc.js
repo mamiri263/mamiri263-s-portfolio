@@ -6,7 +6,7 @@ import Seo from '../components/seo'
 
 const RedirectPage = () => {
     React.useEffect(() => {
-      window.location.replace('https://pcpartpicker.com/list/tCNqXy')
+      window.location.replace('https://pcpartpicker.com/list/XGskyK')
     }, [])
   }
 
