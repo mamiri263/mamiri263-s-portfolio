@@ -9,7 +9,7 @@ const HomePage = () => {
     <main>
       <Layout pageTitle="Home Page">
         <p>Hello this is my personal blog written in gatsby.js</p>
-        <p>you can learn more about it by heading over to this page's <a href='https://github.com/mamiri263/mamiri263-portfolio'>github</a>!</p>
+        <p>you can learn more about it by heading over to this page's <a target='_blank' href='https://github.com/mamiri263/mamiri263-portfolio'>github</a>!</p>
       </Layout>
     </main>
   )

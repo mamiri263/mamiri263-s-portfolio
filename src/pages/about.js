@@ -22,10 +22,10 @@ const AboutPage = () => {
         <h2>Contact me</h2>
         <ul>
           <li>discord: wyn#2006</li>
-          <li><a style={linkStyles} href='mailto: moh@mamiri263.com"'>Email</a></li>
+          <li><a style={linkStyles} target='_blank' href='mailto: moh@mamiri263.com"'>Email</a></li>
         </ul>
         <h2>Official work</h2>
-        <p>I am currently looking for a job as a software engineer; to receive my CV please email me.</p>
+        <p>I am currently looking for a job as a software engineer; here is my <a style={linkStyles} target='_blank' href='https://drive.google.com/file/d/1zFD1DYdIPgxllRxRjtCReLmDRoA6H-dN/view?usp=sharing'>CV</a></p>
       </Layout>
     </main>
   )
