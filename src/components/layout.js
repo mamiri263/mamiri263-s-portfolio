@@ -1,40 +1,29 @@
 import * as React from 'react'
-import { Link, useStaticQuery, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import {
-  container,
-  heading,
+  nav,
   navLinks,
   navLinkItem,
   navLinkText,
+  homePageLink,
 } from './layout.module.css'
-import DarkMode from "./DarkMode";
 import CookieConsent from 'react-cookie-consent';
 
 
-const Layout = ({ pageTitle, children }) => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
+const Layout = ({ children }) => {
   return (
     <body>
-      <div className={container}>
+      <div className={nav}>
         <nav>
           <ul className={navLinks}>
             <li className={navLinkItem}>
-              <Link to="/" className={navLinkText}>
-                Home
+              <Link to="/" className={homePageLink}>
+                mamiri263
               </Link>
             </li>
             <li className={navLinkItem}>
-              <Link to="/about" className={navLinkText}>
-                About
+              <Link to="/photography" className={navLinkText}>
+                Photography
               </Link>
             </li>
             <li className={navLinkItem}>
@@ -43,24 +32,13 @@ const Layout = ({ pageTitle, children }) => {
               </Link>
             </li>
             <li className={navLinkItem}>
-              <Link to="/pc" className={navLinkText}>
-                Pc
+              <Link to="/privacy" className={navLinkText}>
+                Privacy policy
               </Link>
             </li>
-            <li>
-              <DarkMode />
-            </li>
           </ul>
-          <hr
-            style={{
-              color: "white",
-              backgroundColor: "white",
-            }}
-          />
         </nav>
-
         <main>
-          <h1 className={heading}>{pageTitle}</h1>
           {children}
         </main>
       </div>

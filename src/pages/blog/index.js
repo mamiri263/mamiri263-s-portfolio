@@ -4,22 +4,25 @@ import Layout from '../../components/layout'
 import Seo from '../../components/seo'
 import {
   navLinkText,
+  box,
 } from '../../components/layout.module.css'
 
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="latest blog posts">
+    <Layout>
       {
         data.allMdx.nodes.map(node => (
           <article key={node.id}>
-            <h2>
-              <Link className={navLinkText} to={`/blog/${node.frontmatter.slug}`}>
-                {node.frontmatter.title}
-              </Link>
-            </h2>
-            <p>Posted: {node.frontmatter.date}</p>
-            <p>{node.excerpt}</p>
+            <div className={box}>
+              <h2>
+                <Link className={navLinkText} to={`/blog/${node.frontmatter.slug}`}>
+                  {node.frontmatter.title}
+                </Link>
+              </h2>
+              <p>Posted: {node.frontmatter.date}</p>
+              <p>{node.excerpt}</p>
+            </div>
           </article>
         ))
       }

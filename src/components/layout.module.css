@@ -1,11 +1,39 @@
-.container {
+.nav {
   margin: auto;
-  max-width: 500px;
+  max-width: 1850px;
   font-family: sans-serif;
 }
 
-.heading {
-  color: rgb(55, 99, 114);
+.main-container {
+  display: flex;
+}
+
+.about-info {
+  margin-top: 100px;
+  margin-left: 150px;
+  font-family: sans-serif;
+}
+
+.pics {
+  margin-top: 90px;
+  margin-left: 300px;
+  height: 500px;
+  width: auto;
+}
+
+.box {
+  background-color: #1d1f24;
+  max-width: 900px;
+  margin: 20px;
+  padding: 50px;
+  border-radius: 1%;
+}
+
+.container {
+  margin: auto;
+  margin-top: 100px;
+  max-width: 500px;
+  font-family: sans-serif;
 }
 
 .nav-links {
@@ -18,23 +46,60 @@
   padding-right: 2rem;
 }
 
+.home-page-link {
+  color: rgb(221, 221, 221);
+  text-decoration: none;
+  font-size: large;
+  font-weight: 600;
+}
+
 .nav-link-text {
-  color: azure;
-  -webkit-transition: color .3s linear;
-  -moz-transition: color .3s linear;
-  -ms-transition: color .3s linear;
-  -o-transition: color .3s linear;
-  transition: color .3s linear;
+  color: rgb(197, 196, 196);
 }
 
-.nav-link-text:hover {
-  color: rgb(140, 140, 140);
+a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 
-.site-title {
-  font-size: 3rem;
-  color: rgb(232, 232, 232);
-  font-weight: 700;
-  margin: 3rem 0;
+body {
+  background-color: #212429;
+  color: white;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .pics {
+    display: none;
+    visibility: hidden;
+  }
+  .about-info {
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1000px;
+    font-family: sans-serif;
+  }
 }
