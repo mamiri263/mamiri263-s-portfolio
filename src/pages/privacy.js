@@ -20,7 +20,7 @@ const Likes = () => {
 
 export const Head = () => (
   <>
-    <Seo title="...." />
+    <Seo title="Privacy policy" />
     <Seo />
   </>
 )

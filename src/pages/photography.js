@@ -17,7 +17,7 @@ const Likes = () => {
 
 export const Head = () => (
   <>
-    <Seo title="...." />
+    <Seo title="photography" />
     <Seo />
   </>
 )
