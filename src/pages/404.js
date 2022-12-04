@@ -1,13 +1,19 @@
 import * as React from "react"
 import { Link } from 'gatsby'
+import Layout from '../components/layout'
 import Seo from '../components/seo'
-
+import {
+  container,
+} from '../components/layout.module.css'
 
 const NotFoundPage = () => {
   return (
     <main>
-      <p>wrong page bro</p>
-      <Link style={{color: "gray"}} to="/">click here to go to the home page</Link>
+      <Layout></Layout>
+      <div className={container}>
+        <h1>404 error: page not found :/</h1>
+        <Link to="/" style={{color: "gray", fontSize:"20px"}}>click here to return to homepage</Link>
+      </div>
     </main>
   )
 }
