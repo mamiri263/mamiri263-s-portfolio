@@ -6,13 +6,13 @@ import Seo from '../components/seo'
 
 const RedirectPage = () => {
     React.useEffect(() => {
-      window.location.replace('https://pcpartpicker.com/list/m268sL')
+      window.location.replace('https://pcpartpicker.com/list/HFRZ3y')
     }, [])
   }
 
 export const Head = () => (
     <>
-      <Seo title="PC parts i want to buy" />
+      <Seo title="my current pc" />
       <Seo />
     </>
   )
