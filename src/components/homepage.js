@@ -11,9 +11,6 @@ const Homepage = () => {
   return (
     <body>
       <div className={mainContainer}>
-        <div>
-              <img className={pics} src='https://i.pinimg.com/736x/c4/00/d8/c400d812a379a81cc230b9d37599fd85.jpg'></img>
-        </div>
         <div className={aboutInfo}>
             <h1>Hello I'm <a target={"_blank"} style={{color: "gray"}}  href='https://github.com/mamiri263'>M</a></h1>
             <p>I'm studying as a freshman in Kuwait and I have an interest in computer science.<br></br>I like things such as cats, music and messing with my friends.</p>
